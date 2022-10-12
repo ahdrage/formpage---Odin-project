@@ -33,6 +33,9 @@ main {
     background-color: white ;
     grid-column: 4 / 9;
     grid-row: 2 / 3;
+    box-shadow: 0 6px 4px -2px #DDE0E0;
+    z-index: 10;
+
     
 
 }
@@ -69,7 +72,7 @@ form {
     grid-row: 3 / 4;
   
 
-    
+   
 }
 
 
@@ -93,6 +96,8 @@ input {
     background-color:#F7F9FA ;
     grid-column: 4 / 9;
     grid-row: 3 / 4;
+  
+
 }
 
 button {
@@ -110,9 +115,11 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("img/leaf3.jpg");
+    background-image: url("img/leaf4.jpg");
+    background-repeat: no-repeat;
     grid-column: 1 / 4;
     grid-row: 1 / 4;
+    z-index: 2;
 }
 
 .image-overlay {
@@ -123,8 +130,10 @@ button {
     height: 150px;
     background-color: black;
     opacity: 40%;
+    z-index: 3;
    
 }
+
 
 
 .logo-overlay {
@@ -132,10 +141,15 @@ button {
     justify-content: center;
     width: 100%;
     height: 100%;
+    z-index: 5;
    
 }
 
 .img {
     width: 330px;
     height: 330px;
+}
+
+.image-overlay {
+    z-index: 8;
 }
