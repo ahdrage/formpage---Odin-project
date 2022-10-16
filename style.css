@@ -20,7 +20,6 @@ main {
     justify-content: flex-end;
     padding: 2rem;
     background-color: #F7F9FA ;
-    
     grid-column: 4 / 9;
     grid-row: 1 / 2;
 }
@@ -29,15 +28,11 @@ main {
     display: grid; 
     grid-template-columns: 1; 
     grid-template-rows: repeat(3, 1fr);
-
     background-color: white ;
     grid-column: 4 / 9;
     grid-row: 2 / 3;
     box-shadow: 0 6px 4px -2px #DDE0E0;
     z-index: 10;
-
-    
-
 }
 
 form {
@@ -45,51 +40,35 @@ form {
 }
 
 .first-row {
-   
     display: flex;
     gap: 3rem;
     grid-column: 1 /2;
-    grid-row: 1 / 2;
-  
-
-    
+    grid-row: 1 / 2;   
 }
 
 .second-row {
     display: flex;
-   gap: 3rem;
-    
+    gap: 3rem;
     grid-column: 1 / 2; 
-    grid-row: 2 / 3;
-   
+    grid-row: 2 / 3;  
 }
 
 .third-row {
     display: flex;
     gap: 3rem;
-  
     grid-column: 1 / 2; 
-    grid-row: 3 / 4;
-  
-
-   
+    grid-row: 3 / 4; 
 }
-
-
-
-
-
-/* form {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-
-} */
 
 
 input {
     width: 13rem;
+    border: 2px solid #E4E7EB;
+    border-radius: 2px;
+    font-size: 1rem;
 }
+
+
 
 .create-account-section {
     padding: 2rem;
@@ -152,4 +131,8 @@ button {
 
 .image-overlay {
     z-index: 8;
+}
+
+label {
+    font-size: 0.7rem;
 }
